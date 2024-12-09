@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.containerTwo {
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 99999;
+}
+
+.containerTwo .judul h1 {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.containerTwo .navbar a {
+    color: white;
+    margin-left: 12px;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.containerTwo .navbar a:hover {
+    background-color: bisque;
+    border-radius: 15px;
+    transition: .4s ease-in-out;
+}
+
+.footer {
+    padding: 30px 60px;
+    background-color: cornflowerblue;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 800;
+}
+
+.content {
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 60px;
+    width: 980px;
+    background-color: cornflowerblue;
+    box-shadow: 4px 4px 10px grey;
+}
+
+.content h2 {
+    color: white;
+}
+
+.content p {
+    color: white;
+}
