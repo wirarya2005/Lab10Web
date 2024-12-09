@@ -15,6 +15,7 @@ $result = mysqli_query($db->conn, $sql);
 </head>
 <body>
     <?php require('header.php'); ?>
+    <?php require('home.php'); ?>
     <div class="container">
         <h1>Data Barang</h1>
         <a href="tambah.php">Tambah Barang</a>

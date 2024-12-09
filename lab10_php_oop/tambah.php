@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
     header('location: index.php');
 }
 ?>
-<!-- Form HTML -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,6 +38,7 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
     <?php require('header.php'); ?>
+    <?php require('home.php'); ?>
     <div class="container">
         <h1>Tambah Barang</h1>
         <form method="post" action="tambah.php" enctype="multipart/form-data">

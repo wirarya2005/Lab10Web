@@ -4,7 +4,6 @@ include_once 'koneksi.php';
 $db = new Database();
 $id = $_GET['id'];
 
-// Fungsi untuk menentukan opsi yang dipilih
 function is_select($value, $selected) {
     return $value === $selected ? 'selected' : '';
 }
@@ -18,13 +17,11 @@ if (isset($_POST['submit'])) {
     $file_gambar = $_FILES['file_gambar'];
     $gambar = null;
 
-    // Validasi input
     if (empty($nama) || empty($kategori) || empty($harga_jual) || empty($harga_beli) || empty($stok)) {
         echo "Semua field harus diisi!";
         exit;
     }
 
-    // Proses upload gambar
     if ($file_gambar['error'] == 0) {
         $filename = str_replace(' ', '_', $file_gambar['name']);
         $destination = dirname(__FILE__) . '/gambar/' . $filename;
@@ -36,7 +33,6 @@ if (isset($_POST['submit'])) {
         }
     }
 
-    // Menggunakan prepared statement untuk menghindari SQL Injection
     $sql = "UPDATE data_barang SET 
             nama=?, kategori=?, harga_jual=?, 
             harga_beli=?, stok=?";
@@ -82,7 +78,6 @@ $data = $result->fetch_assoc();
 <body>
 
     <?php require('header.php'); ?>
-
     <?php require('home.php'); ?>
     <div class="container">
         <h1>Ubah Barang</h1>

@@ -7,6 +7,14 @@
 - Pada kali ini saya akan mempraktikan konsep `Modularisasi`, dan mempratikan nya tugas praktikum 8
 - Pada kesempatan kali ini saya akan membuat project `CRUD` menggunakan `php` dan web servernya menggunakan `apache`
 
+## Menerapkan Konsep Modularisasi dengan OOP pada
+![OOP](/screenshoot/tampilanOOP.png)
+
+### Penjelasan
+- Saya menggunakan Konsep Modularisasi pada file `index.php`, `ubah.php`, `tambah.php`, dan `hapus.php`.
+- Saya menggunakan object-oriented programming (OOP) untuk membuat kode yang lebih rapi dan mudah dibaca.
+
+
 ## Membuat `header.php`
 ![makeHeader](/screenshoot/makeheader.png)
 
