@@ -7,6 +7,8 @@
 - Pada kali ini saya akan mempraktikan konsep `Modularisasi`, dan mempratikan nya tugas praktikum 8
 - Pada kesempatan kali ini saya akan membuat project `CRUD` menggunakan `php` dan web servernya menggunakan `apache`
 
+
+# Praktikum 10
 ## Menerapkan Konsep Modularisasi dengan OOP pada
 ![OOP](/screenshoot/tampilanOOP.png)
 
@@ -18,6 +20,22 @@
 - Saya menggunakan object-oriented programming (OOP) untuk membuat kode yang lebih rapi dan mudah dibaca.
 
 
+## Membuat `mobil.php`
+![MobilPhp](/screenshoot/mobilPhp.png)
+
+## Membuat `form_input.php`
+![formInput](/screenshoot/formInput.png)
+
+## Membuat `form.php`
+![formPhp](/screenshoot/formInputPhp.png)
+
+## Membuat `database.php`
+![databasePhp](/screenshoot/databasePhp.png)
+
+
+====================================================================
+
+# Praktikum 9
 ## Membuat `header.php`
 ![makeHeader](/screenshoot/makeheader.png)
 
@@ -29,6 +47,10 @@
 
 ## Tampilan Akhir
 ![tamAkhir](/screenshoot/modularfirst.png)
+
+====================================================================
+
+# Praktikum 8
 
 ## Implementasi pada `Praktikum Delapan`
 ### Pada Read Data `index.php`
@@ -62,3 +84,5 @@
 - Melakukan Hapus data untuk Iphone 11
 ![hapus-data](/screenshoot/hapus-ip-1.png)
 ![hasil-hapus](/screenshoot/hasil-hapus.png)
+
+====================================================================

@@ -5,6 +5,7 @@ $db = new Database();
 $sql = 'SELECT * FROM data_barang';
 $result = mysqli_query($db->conn, $sql);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
