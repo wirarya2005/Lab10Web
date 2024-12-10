@@ -21,6 +21,7 @@ if (isset($_POST['submit'])) {
         }
     }
 
+    
     $sql = "INSERT INTO data_barang (nama, kategori, harga_jual, harga_beli, stok, gambar) 
             VALUES ('$nama', '$kategori', '$harga_jual', '$harga_beli', '$stok', '$gambar')";
     mysqli_query($db->conn, $sql);
