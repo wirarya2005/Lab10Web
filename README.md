@@ -13,6 +13,8 @@
 
 ### Penjelasan
 - Saya menggunakan Konsep Modularisasi pada file `index.php`, `ubah.php`, `tambah.php`, dan `hapus.php`.
+- Untuk database connection nya berada di `koneksi.php`\
+- Saya menggunakan `require` dan `include` untuk modularisasinya
 - Saya menggunakan object-oriented programming (OOP) untuk membuat kode yang lebih rapi dan mudah dibaca.
 
 
